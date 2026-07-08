@@ -1,0 +1,6 @@
+{
+  "name": "Suivi d'Hydratation",
+  "description": "Une application Android de suivi d'hydratation quotidienne avec un objectif de 2L, construite avec Jetpack Compose.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
