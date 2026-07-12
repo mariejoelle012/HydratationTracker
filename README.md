@@ -80,5 +80,5 @@ android.enableJetifier=true
  
 ## 🐞 Problèmes connus / Historique de débogage
  
-L'ensemble des erreurs rencontrées lors de la mise en place du projet (configuration Gradle, signature, compilation Kotlin, dépendances) ainsi que leurs résolutions sont détaillées dans **[DOCUMENTATION_ERREURS.md](./DOCUMENTATION_ERREURS.md)**.
+L'ensemble des erreurs rencontrées lors de la mise en place du projet (configuration Gradle, signature, compilation Kotlin, dépendances) ainsi que leurs résolutions sont détaillées dans le fichier de documentation des erreurs.
  
