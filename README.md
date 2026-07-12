@@ -6,8 +6,6 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/f06b7b95-3212-4024-a36e-379b8e53b2d0
-
 ## Run Locally
 
 **Prerequisites:**  [Android Studio](https://developer.android.com/studio)
@@ -19,7 +17,7 @@ View your app in AI Studio: https://ai.studio/apps/f06b7b95-3212-4024-a36e-379b8
 4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
-7. # Suivi d'Hydratation 💧
+# Suivi d'Hydratation 💧
  
 Application Android de suivi de consommation d'eau quotidienne, développée avec **Jetpack Compose** et **Material 3**.
  
@@ -27,7 +25,7 @@ Application Android de suivi de consommation d'eau quotidienne, développée ave
  
 Cette application permet à l'utilisateur de suivre son hydratation au quotidien : enregistrement des prises d'eau, suivi de l'objectif journalier, et visualisation de la progression via une interface moderne construite entièrement en Compose.
  
-> ✏️ *Section à compléter : détaille ici les fonctionnalités précises de l'app (ex. ajout rapide de verre d'eau, historique, notifications de rappel, objectif personnalisable, statistiques, etc.)*
+> l'application permet l'ajout rapide de verres d'eau (100ml, 250ml, 500ml), retrace l'historique de consommation, precise l'heure de la dernière prise;et enregistre la serie de jour ou l'objectif quotidien de 2L a été atteint.
  
 ## 🛠️ Stack technique
  
@@ -84,6 +82,3 @@ android.enableJetifier=true
  
 L'ensemble des erreurs rencontrées lors de la mise en place du projet (configuration Gradle, signature, compilation Kotlin, dépendances) ainsi que leurs résolutions sont détaillées dans **[DOCUMENTATION_ERREURS.md](./DOCUMENTATION_ERREURS.md)**.
  
-## 👤 Auteur
- 
-Projet réalisé dans le cadre d'un cours de développement d'applications mobiles (Android / Kotlin).
